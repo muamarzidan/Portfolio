@@ -208,7 +208,7 @@ a:hover {
 }
 .socials ul li {
   display: inline-block;
-  padding: 2rem 1rem 0rem 0rem;
+  padding: 2rem 0.5rem 0rem 0rem;
 }
 .socials .ico-circle {
   height: 40px;
@@ -223,7 +223,7 @@ a:hover {
 .socials .ico-circle:hover {
   background-color: #000000;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #2e2e2e;
   transition: all 500ms ease;
 }
 
@@ -268,8 +268,8 @@ a:hover {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
+  background: #1a1a1a;
+  border: 0px solid #313131;
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
@@ -316,7 +316,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #000000;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -328,7 +328,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #298eff;
+  background: #303030;
   color: #fff;
 }
 .back-to-top.active {
@@ -353,8 +353,8 @@ a:hover {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border: 6px solid #ffffff;
+  border-top: 6px solid #1a1a1a;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -754,12 +754,18 @@ a:hover {
   }
 }
 
+
+.card-font {
+  color: #18d26e;
+}
+
 .card1{
+    background-color: #1f1f1f;
     margin-top: 7px;
     margin-bottom: 7px;
     border-style: solid;
-    border-width: thin;
-    border-radius: 7px;
+    border-width: 1px;
+    border-radius: 10px;
 }
 
 .span-skill{
@@ -796,7 +802,7 @@ a:hover {
   transition: all 500ms ease;
   color: #fff;
   background-color: #242424;
-  box-shadow: 0 0 0 10px #c8c8c8;
+  box-shadow: 0 0 0 10px #e7e7e7;
 }
 .service-box .service-ico {
   margin-top: 1rem;
@@ -843,7 +849,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.5;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #0e0e0e;
 }
 
 .counter-num .counter {
