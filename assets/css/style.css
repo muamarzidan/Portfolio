@@ -195,6 +195,11 @@ a:hover {
   margin-bottom: 3rem;
   z-index: 10;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 @media (min-width: 768px) {
   .box-shadow-full {
@@ -208,14 +213,14 @@ a:hover {
 }
 .socials ul li {
   display: inline-block;
-  padding: 2rem 0.5rem 0rem 0rem;
+  padding: 2rem 0.5rem 0rem 10rem;
 }
 .socials .ico-circle {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   font-size: 1.2rem;
   border-radius: 50%;
-  line-height: 1.9;
+  line-height: 2.8  ;
   margin: 0 10px 0 0;
   box-shadow: 0 0 0 3px #000000;
   transition: all 500ms ease;
@@ -225,6 +230,92 @@ a:hover {
   color: #fff;
   box-shadow: 0 0 0 3px #2e2e2e;
   transition: all 500ms ease;
+}
+
+@media screen and (max-width: 1200px) {
+  .socials ul li {
+    display: inline-block;
+    padding: 2rem 0.3rem 0rem 9rem;
+  }
+  .socials .ico-circle {
+    height: 55px;
+    width: 55px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 2.5  ;
+    margin: 0 10px 0 0;
+    box-shadow: 0 0 0 3px #000000;
+    transition: all 500ms ease;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .socials ul li {
+    display: inline-block;
+    padding: 2rem 0.1rem 0rem 6rem;
+  }
+  .socials .ico-circle {
+    height: 50px;
+    width: 50px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 2.2  ;
+    margin: 0 10px 0 0;
+    box-shadow: 0 0 0 3px #000000;
+    transition: all 500ms ease;
+  }
+}
+@media screen and (max-width: 990px) {
+  .socials ul li {
+    display: inline-block;
+    padding: 2rem 0.1rem 0rem 4rem;
+  }
+  .socials .ico-circle {
+    height: 45px;
+    width: 45px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 2;
+    margin: 0 10px 0 0;
+    box-shadow: 0 0 0 3px #000000;
+    transition: all 500ms ease;
+  }
+}
+  
+
+@media screen and (max-width: 767px) {
+  .socials ul li {
+    display: inline-block;
+    padding: 2rem 0.5rem 0rem 2.3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .socials ul li {
+    display: inline-block;
+    padding: 2rem 0.5rem 0rem 1.5rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .socials ul li {
+    display: inline-block;
+    padding: 2rem 0rem 0rem 1.2rem;
+  }
+  .socials .ico-circle {
+    height: 30px;
+    width: 30px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.5;
+    margin: 0 10px 0 0;
+    box-shadow: 0 0 0 2px #000000;
+    transition: all 500ms ease;
+  }
+}
+@media screen and (max-width: 395px) {
+  .socials ul li {
+    display: inline-block;
+    padding: 2rem 0rem 0rem 1rem;
+  }
 }
 
 /*------/ Ul resect /------*/
@@ -1047,7 +1138,7 @@ a:hover {
     bottom: -12px;
 }
 
-.php-email-form .error-message {
+.php-exl-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1331,4 +1422,14 @@ footer .credits a {
 
 .paralax-mf footer-paralax bg-image sect-mt4 route {
   background-image: url(assets/img/zidan-bg4.jpg);
+}
+
+.more-info ul li {
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .more-info ul li {
+    font-size: 1em;
+  }
 }
