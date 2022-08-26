@@ -188,7 +188,20 @@ a:hover {
   padding-left: 2rem;
 }
 
-.box-shadow-full {
+.box-shadow-full1 {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 10;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.box-shadow-full2 {
   padding: 3rem 1.25rem;
   position: relative;
   background-color: #fff;
@@ -214,7 +227,8 @@ a:hover {
 }
 .socials ul li {
   display: inline-block;
-  padding: 2rem 0.5rem 0rem 10rem;
+  padding: 2rem 0.8rem 0rem 8rem;
+  margin-right: 10px;
 }
 .socials .ico-circle {
   height: 60px;
@@ -233,7 +247,11 @@ a:hover {
   transition: all 500ms ease;
 }
 
-@media screen and (max-width: 1326px) {
+@media screen and (max-width: 1352px) {
+  .social {
+    padding: 1.5rem 0;
+  }
+
   .socials ul li {
     display: inline-block;
     padding: 2rem 0.3rem 0rem 9rem;
@@ -243,7 +261,7 @@ a:hover {
     width: 55px;
     font-size: 1.2rem;
     border-radius: 50%;
-    line-height: 2.5  ;
+    line-height: 2.5;
     margin: 0 10px 0 0;
     box-shadow: 0 0 0 3px #000000;
     transition: all 500ms ease;
@@ -853,6 +871,7 @@ a:hover {
 
 .card1{
     background-color: #e34c26;
+    border: #000000;
     margin-top: 7px;
     margin-bottom: 7px;
     border-style: solid;
@@ -861,6 +880,7 @@ a:hover {
 }
 .card2{
     background-color: #2196f3;
+    border: #000000;
     margin-top: 7px;
     margin-bottom: 7px;
     border-style: solid;
@@ -869,6 +889,7 @@ a:hover {
 }
 .card3{
     background-color: #8993be;
+    border: #000000;
     margin-top: 7px;
     margin-bottom: 7px;
     border-style: solid;
@@ -877,6 +898,7 @@ a:hover {
 }
 .card4{
     background-color: #F0DB4F;
+    border: #000000;
     margin-top: 7px;
     margin-bottom: 7px;
     border-style: solid;
@@ -885,6 +907,7 @@ a:hover {
 }
 .card5{
     background-color: #215732;
+    border: #000000;
     margin-top: 7px;
     margin-bottom: 7px;
     border-style: solid;
@@ -893,6 +916,7 @@ a:hover {
 }
 .card6{
     background-color: #000000;
+    border: #000000;
     margin-top: 7px;
     margin-bottom: 7px;
     border-style: solid;
