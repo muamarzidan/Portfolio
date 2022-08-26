@@ -192,6 +192,7 @@ a:hover {
   padding: 3rem 1.25rem;
   position: relative;
   background-color: #fff;
+  opacity: 0.7;
   margin-bottom: 3rem;
   z-index: 10;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -218,7 +219,7 @@ a:hover {
 .socials .ico-circle {
   height: 60px;
   width: 60px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   border-radius: 50%;
   line-height: 2.8  ;
   margin: 0 10px 0 0;
@@ -232,7 +233,7 @@ a:hover {
   transition: all 500ms ease;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1326px) {
   .socials ul li {
     display: inline-block;
     padding: 2rem 0.3rem 0rem 9rem;
@@ -274,7 +275,7 @@ a:hover {
     width: 45px;
     font-size: 1.2rem;
     border-radius: 50%;
-    line-height: 2;
+    line-height: 2.3;
     margin: 0 10px 0 0;
     box-shadow: 0 0 0 3px #000000;
     transition: all 500ms ease;
@@ -305,7 +306,7 @@ a:hover {
     width: 30px;
     font-size: 1.2rem;
     border-radius: 50%;
-    line-height: 1.5;
+    line-height: 1.4;
     margin: 0 10px 0 0;
     box-shadow: 0 0 0 2px #000000;
     transition: all 500ms ease;
