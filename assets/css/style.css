@@ -851,11 +851,51 @@ a:hover {
 }
 
 .card1{
-    background-color: #1f1f1f;
+    background-color: #e34c26;
     margin-top: 7px;
     margin-bottom: 7px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.card2{
+    background-color: #2196f3;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.card3{
+    background-color: #8993be;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.card4{
+    background-color: #F0DB4F;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.card5{
+    background-color: #215732;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.card6{
+    background-color: #000000;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 3px;
     border-radius: 10px;
 }
 
