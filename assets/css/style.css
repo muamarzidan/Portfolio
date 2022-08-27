@@ -323,18 +323,23 @@ a:hover {
 @media screen and (max-width: 440px) {
   .socials ul li {
     display: inline-block;
-    padding: 2rem 0rem 0rem 1.2rem;
+    padding: 2rem 0rem 0rem 1rem;
+    line-height: 1;
   }
   .socials .ico-circle {
-    height: 30px;
-    width: 30px;
-    font-size: 1.2rem;
+    height: 25px;
+    width: 25px;
+    font-size: 0.9rem;
     border-radius: 50%;
-    line-height: 1.4;
-    margin: 0 10px 0 0;
+    line-height: 1.6;
+    margin: 0;
     box-shadow: 0 0 0 2px #000000;
     transition: all 500ms ease;
-  }
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 }
 
 
@@ -1506,7 +1511,7 @@ footer .credits a {
 
   .socials ul li {
     display: inline-block;
-    padding: 2rem 0rem 0rem 1rem;
+    padding: 2.3rem 0rem 0rem 1rem;
   }
 
   .list-ico {
