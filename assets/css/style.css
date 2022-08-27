@@ -205,7 +205,7 @@ a:hover {
   padding: 3rem 1.25rem;
   position: relative;
   background-color: #fff;
-  opacity: 0.3;
+  opacity: 0.4;
   margin-bottom: 3rem;
   z-index: 10;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -217,7 +217,7 @@ a:hover {
 }
 
 .box-shadow-full2 .title-box h3 {
- color: #ff0000;
+ color: #000000;
  z-index: 11;
  opacity: 1;
 }
@@ -336,12 +336,7 @@ a:hover {
     transition: all 500ms ease;
   }
 }
-@media screen and (max-width: 395px) {
-  .socials ul li {
-    display: inline-block;
-    padding: 2rem 0rem 0rem 1rem;
-  }
-}
+
 
 /*------/ Ul resect /------*/
 .ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, .blog-wrapper .post-meta ul, .list-ico, .socials ul {
@@ -354,7 +349,7 @@ a:hover {
   line-height: 3;
 }
 .list-ico span {
-  padding-top: 5  rem;
+  padding-top: 5rem;
   color: #000000;
   margin-right: 30px;
 }
@@ -1502,5 +1497,24 @@ footer .credits a {
 @media screen and (max-width: 767px) {
   .more-info ul li {
     font-size: 1em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .more-info ul li {
+    font-size: 0.9em;
+  }
+
+  .socials ul li {
+    display: inline-block;
+    padding: 2rem 0rem 0rem 1rem;
+  }
+
+  .list-ico {
+    line-height: 2.5;
+  }
+  .list-ico span {
+    padding-top: 4rem;
+    color: #000000;
+    margin-right: 5px;
   }
 }
