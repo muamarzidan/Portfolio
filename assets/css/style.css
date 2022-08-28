@@ -351,7 +351,7 @@ a:hover {
 }
 
 .list-ico {
-  line-height: 3;
+  line-height: 4;
 }
 .list-ico span {
   padding-top: 5rem;
@@ -1494,6 +1494,9 @@ footer .credits a {
 .paralax-mf footer-paralax bg-image sect-mt4 route {
   background-image: url(assets/img/zidan-bg4.jpg);
 }
+.more-info{
+  margin: 0 0 0 50px;
+}
 
 .more-info ul li {
   font-size: 1.2em;
@@ -1502,6 +1505,13 @@ footer .credits a {
 @media screen and (max-width: 767px) {
   .more-info ul li {
     font-size: 1em;
+  }
+
+  .list-ico {
+    line-height: 3;
+  }
+  .more-info{
+    margin: 0 0 0 30px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1514,6 +1524,10 @@ footer .credits a {
     padding: 2.3rem 0rem 0rem 1rem;
   }
 
+  .more-info{
+    margin: 0 0 0 15px;
+  }
+
   .list-ico {
     line-height: 2.5;
   }
@@ -1521,5 +1535,29 @@ footer .credits a {
     padding-top: 4rem;
     color: #000000;
     margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* .more-info ul li {
+    font-size: 0.9em;
+  }
+
+  .socials ul li {
+    display: inline-block;
+    padding: 2.3rem 0rem 0rem 1rem;
+  } */
+
+  .more-info{
+    margin: 0 0 0 15px;
+  }
+
+  .list-ico {
+    line-height: 2.5;
+  }
+  .list-ico span {
+    padding-top: 3.5rem;
+    color: #000000;
+    margin-right: 3px;
   }
 }
