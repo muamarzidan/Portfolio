@@ -140,7 +140,6 @@ a:hover {
   font-size: 1.1rem;
 }
 
-/*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
 }
@@ -1612,10 +1611,12 @@ footer .credits a {
 .card-skill {
   position: relative;
   display: flex;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
   overflow: hidden;
   width: 100%;
-  /* text-align: center; */
   color: whitesmoke;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1623,9 +1624,9 @@ footer .credits a {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .card-skill {
-    height: 300px;
+    height: 200px;
   }
 }
 .card-skill:before {
@@ -1661,6 +1662,7 @@ footer .credits a {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
+
 .card-skill:nth-child(1):before {
   background-image: url('../img/html.png');
 }
